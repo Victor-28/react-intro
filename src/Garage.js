@@ -1,15 +1,9 @@
 import React, {Component} from 'react';
-import Garage from " ./Garage.js"
-import './App.css';
-
-class Garage extends Component{
-    render (){
-        return(
-            <div  className="App">
-                <h1>Garage</h1>
-                <Garage/>
-            </div>
-        );
+class Garages extends Component {
+    render() {
+        return this.props.garage.map((garage) => (
+            <h2>{garage.title}</h2>
+        ));
     }
 }
-export default app;
+export default Garages;
