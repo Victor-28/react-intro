@@ -1,17 +1,35 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-type';
-class Garages extends Component {
+
+
+export class Garages extends Component {
+  getStyle = () => {
+    if (this.prop.garage.completed) {
+    return{
+    textDecoration: 'line through'
+    }
+    }else {
+
+    return {
+
+    textDecoration: 'none'
+    }
+    }
+
+  }
+
+
     render() {
-        return this.props.garage.map((garage) => (
-        <div>
+        return()
+        <div> style={this.getStyle()}>
             <p>{this.prop.Garage.title}</p>
         </div>
             <h2>Hello</h2>
         ));
     }
 }
-Garages.propTypes = {
-    garages: PropTypes.array.IsRequired
+GarageItem.propTypes = {
+    garages: PropTypes.object.IsRequired
 }
 
 
