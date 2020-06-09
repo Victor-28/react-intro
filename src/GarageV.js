@@ -4,27 +4,21 @@ import PropTypes from 'prop-type';
 
 export class Garages extends Component {
   getStyle = () => {
-    if (this.prop.garage.completed) {
+
     return{
-    textDecoration: 'line through'
-    }
-    }else {
-
-    return {
-
-    textDecoration: 'none'
-    }
-    }
-
-  }
+    background: '#f4f4f4',
+    padding: '10px','1px #ccc dotted',
+    borderBottom: '1px #'
+    textDecoration: this.prop.GarageV.completed ?
+    'line-through'
 
 
     render() {
         return()
         <div> style={this.getStyle()}>
-            <p>{this.prop.Garage.title}</p>
+            <p>{ this.prop.Garage.title }</p>
         </div>
-            <h2>Hello</h2>
+            
         ));
     }
 }
