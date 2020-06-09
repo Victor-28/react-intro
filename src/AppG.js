@@ -5,9 +5,7 @@ import './App.css';
  class App extends Component{
      state={
          Garage: [
-
              {
-
                  id: 1,
                  title: 'scan the car',
                  completed: false
@@ -23,9 +21,7 @@ import './App.css';
                  id: 3,
                  title: 'display car of the week',
                  completed: false
-
              },
-
                 ]
  }
              render() {
