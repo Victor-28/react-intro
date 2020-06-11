@@ -7,21 +7,48 @@ import './App.css';
          Garage: [
              {
                  id: 1,
-                 title: 'scan the car',
+                 name: 'Nissan Qashqui',
                  completed: false
              },
 
              {
                  id: 2,
-                 title: 'control the car',
+                 title: 'Toyota Rav4',
                  completed: false
              },
 
              {
                  id: 3,
-                 title: 'display car of the week',
+                 title: 'Honda CRV',
                  completed: false
              },
+             
+             {
+                 id: 4,
+                 title: 'Mazda CX-5',
+                 completed: false
+             },
+
+             {
+                 id: 5,
+                 title: 'Subaru Forester',
+                 completed: false
+             },
+
+             {   id:6, 
+                 title: 'Mitsubishi Outlander',
+                 completed: false
+
+             }
+
+             {
+                id:7,
+                title: 'Nissan Juke',
+                completed: false
+             }
+
+
+
                 ]
  }
              render() {
