@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Car from  "./Car.js"
-
+import Man from  "./Man.js"
 function App() {
   return (
 
@@ -32,6 +32,10 @@ function App() {
 
         </p>
         <Car/>
+        <Man curious="black man"/>
+        <Man curious="courageous enterprise"/>
+    
+      
         <a
           className="App-link"
           href="https://reactjs.org"
