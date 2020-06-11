@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Car from  "./Car.js"
 import Man from  "./Man.js"
+import Webpage from './indexV';
 function App() {
   return (
 
@@ -32,6 +33,7 @@ function App() {
 
         </p>
         <Car/>
+        
         <Man curious="black man"/>
         <Man curious="courageous enterprise"/>
     

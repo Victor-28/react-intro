@@ -10,9 +10,8 @@ import React from 'react';
       </div>
    )
 
-    
     }
-  
-  
-  
+
   export default Man;
+
+  /* prop is passing argument into react Component, prop are pass to component through html comp*/
