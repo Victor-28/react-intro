@@ -24,7 +24,7 @@ export default Webpage;
 function clock (){
     const [time, setTime]=useState(newDate().toLocalTimeString("ng"));
 
-    setInterval(() => setTime(new Date)().toLocalTimeString("ng")), 1000);
+    /*setInterval(() => setTime(new Date)().toLocalTimeString("ng")), 1000);*/
         
 
      let time = newDate().time,toLocalTimeString ("ng");
